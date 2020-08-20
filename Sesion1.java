@@ -1,4 +1,4 @@
-
+//programa de sesion 1 , 5.llenar, 6.vaciar
 package sesion1;
 
 import java.util.Scanner;
