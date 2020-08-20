@@ -1,4 +1,4 @@
-//programa de sesion 1 , 5.llenar, 6.vaciar
+
 package sesion1;
 
 import java.util.Scanner;
@@ -63,7 +63,7 @@ public class Sesion1 {
                  case 5:
                     System.out.println("llenando de forma automatica pila con numeros aleatorios\n"
                             + "en un rango de 150-200");
-            for(int i=0;i<tam;i++){
+            for(int i=0;i<50;i++){
                 int valorEntero = (int) Math.floor(Math.random()*(200-150+1)+150);
 
               System.out.println(valorEntero);
@@ -71,6 +71,8 @@ public class Sesion1 {
               tope++;
 
 }
+
+            
                     break;
                 case 6:
                     tope = 0;
